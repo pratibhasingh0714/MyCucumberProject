@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/resources/features"},
-        glue = {"stepsDefination", "hooks"}, //It will check the file is present or not during
+        glue = {"stepsDef       ination", "hooks"}, //It will check the file is present or not during
        // tags = "@smoke", //Tags which you want to run
         plugin = {"pretty", "html: target/MyReports/cucumber-reports.html"} // "json: target/MyReports/report.json","junit: target/MyReports/report.xml"
       //  publish = true  //Cucumber report
